@@ -27,3 +27,9 @@ export default Hello
 ```
 
 `React.FC` 是官方提供的一个 `React` 泛型支持。
+
+## style
+
+- Inline CSS
+- CSS in JS(many ways, the famous way is `style component`)
+- Sass/less(预处理)

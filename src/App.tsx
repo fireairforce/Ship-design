@@ -1,10 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Hello from './Hello'
-import LikeButton from './components/LikeButoon'
 
 function App() {
+  const a = '123'
   return (
     <div className="App">
       <header className="App-header">
@@ -20,8 +19,6 @@ function App() {
         >
           Learn React
         </a>
-        <Hello message={'hello world1'}/>
-        <LikeButton />
       </header>
     </div>
   );
