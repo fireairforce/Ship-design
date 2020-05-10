@@ -33,3 +33,10 @@ export default Hello
 - Inline CSS
 - CSS in JS(many ways, the famous way is `style component`)
 - Sass/less(预处理)
+
+## keey style normalize
+
+We use normalize.css. See `_rebot.scss`
+
+Import it to the root.
+
