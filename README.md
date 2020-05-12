@@ -60,3 +60,12 @@ npx jest jest.test.js
 # or
 npx jest jest.test.js --watch
 ```
+
+This is a default test library in cra:
+```
+"@testing-library/jest-dom": "^4.2.4",
+"@testing-library/react": "^9.3.2",
+"@testing-library/user-event": "^7.1.2",
+```
+
+So we will use this library.Just see the demo in the `button.test.tsx`
