@@ -11,9 +11,6 @@ function App() {
         <Button btnType={ButtonType.Danger} size={ButtonSize.Small}>Danger Small Button</Button>
         <Button btnType={ButtonType.Link} href="http://www.baidu.com/" target="_blank">Baidu Link</Button>
         <Button btnType={ButtonType.Link} href="http://www.baidu.com/" disabled>Baidu Link disabled</Button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
       </header>
     </div>
   );

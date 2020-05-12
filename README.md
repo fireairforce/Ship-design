@@ -40,3 +40,23 @@ We use normalize.css. See `_rebot.scss`
 
 Import it to the root.
 
+## Test
+We will use `Jest` as our test framework.
+
+[the website](https://jestjs.io/docs/zh-Hans/getting-started.html)
+
+We can use it as a simple demo:
+
+```js
+// jest.test.js
+test('test common matcher', () => {
+  expect(2 + 2).toBe(4)
+})
+```
+
+use command like:
+```bash
+npx jest jest.test.js
+# or
+npx jest jest.test.js --watch
+```
