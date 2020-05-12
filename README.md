@@ -69,3 +69,5 @@ This is a default test library in cra:
 ```
 
 So we will use this library.Just see the demo in the `button.test.tsx`
+
+See some test framework in https://github.com/testing-library
