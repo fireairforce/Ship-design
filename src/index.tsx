@@ -15,14 +15,14 @@ ReactDOM.render(
       <Button btnType="link" href="http://www.baidu.com" target="__blank">Link Button</Button>
       <Button btnType="link" href="http://www.baidu.com" disabled>Disabled Link Button</Button>
       <hr />
-      <Menu defaultIndex={0}>
-        <MenuItem>
+      <Menu defaultIndex={0} onSelect={ (index) => { alert(index) } }>
+        <MenuItem index={0}>
           cool link
         </MenuItem>
-        <MenuItem>
+        <MenuItem index={1} disabled>
           cool link2
         </MenuItem>
-        <MenuItem>
+        <MenuItem index={2}>
           cool link3
         </MenuItem>
       </Menu>
