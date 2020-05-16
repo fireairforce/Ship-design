@@ -15,8 +15,17 @@ ReactDOM.render(
       <Button btnType="link" href="http://www.baidu.com" target="__blank">Link Button</Button>
       <Button btnType="link" href="http://www.baidu.com" disabled>Disabled Link Button</Button>
       <hr />
-      <Menu />
-      <MenuItem />
+      <Menu defaultIndex={0}>
+        <MenuItem>
+          cool link
+        </MenuItem>
+        <MenuItem>
+          cool link2
+        </MenuItem>
+        <MenuItem>
+          cool link3
+        </MenuItem>
+      </Menu>
     </Fragment>
   </React.StrictMode>,
   document.getElementById('root')
