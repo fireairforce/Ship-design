@@ -15,7 +15,7 @@ ReactDOM.render(
       <Button btnType="link" href="http://www.baidu.com" target="__blank">Link Button</Button>
       <Button btnType="link" href="http://www.baidu.com" disabled>Disabled Link Button</Button>
       <hr />
-      <Menu defaultIndex={0} onSelect={ (index) => { alert(index) } }>
+      <Menu defaultIndex={0} onSelect={ (index) => { console.log(index); } } mode='vertical'>
         <MenuItem index={0}>
           cool link
         </MenuItem>
