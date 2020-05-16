@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Button from './components/Button/button'
 import Menu from './components/Menu/menu'
 import MenuItem from './components/Menu/menuItem'
+import './styles/index.scss'
 
 ReactDOM.render(
   <React.StrictMode>
