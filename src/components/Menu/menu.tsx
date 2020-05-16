@@ -35,7 +35,7 @@ const Menu: React.FC<MenuProps> = (props) => {
     onSelect: handleClick
   }
   return (
-    <ul className={classes} style={style}>
+    <ul className={classes} style={style} data-testid="test-menu">
       {/* 这里把context 注入到Provider里面了，可以直接通过value来拿了 */}
       <MenuContext.Provider value={passedContext}>
         {children}
